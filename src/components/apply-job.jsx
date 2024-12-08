@@ -106,7 +106,7 @@ export function ApplyJobDrawer({ user, job, fetchJob, applied = false }) {
           />
           {errors.skills && (
             <p className="text-red-500">{errors.skills.message}</p>
-          )}
+          )} 
           <Controller
             name="education"
             control={control}

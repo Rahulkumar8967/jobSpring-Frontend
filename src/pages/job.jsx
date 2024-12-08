@@ -1,4 +1,5 @@
 import { getSingleJob, updateHiringStatus } from "@/api/apiJobs";
+import ApplicationCard from "@/components/application-card";
 import { ApplyJobDrawer } from "@/components/apply-job";
 
 
