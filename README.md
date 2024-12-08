@@ -1,8 +1,12 @@
-# React + Vite
+Author -> Rahul Kumar Saini 
+made this project using the React.js with Tailwind, Supabase, Clerk, Shadcn UI
+Adding some important things to install
+for backend  job portal App
+backend
+npm init -y
+npm install express mongoose nodemon jsonwebtoken bcryptjs cookie-parser dotenv cors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+for frontend -->
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm create vite@latest
+npm i react-router-dom axios @reduxjs/toolkit react-redux
