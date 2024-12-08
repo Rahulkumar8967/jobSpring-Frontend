@@ -59,8 +59,9 @@ import {
               if (dataAddCompany?.length > 0) {
                 fetchCompanies();
               }
-            }, [loadingAddCompany]);
-          
+            }, [dataAddCompany?.length, fetchCompanies, loadingAddCompany]);
+     
+            
             return (
               <Drawer>
                 <DrawerTrigger>

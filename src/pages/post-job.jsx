@@ -58,7 +58,7 @@ const PostJob = () => {
 
   useEffect(() => {
     if (dataCreateJob?.length > 0) navigate("/jobs");
-  }, [loadingCreateJob]);
+  }, [dataCreateJob?.length, loadingCreateJob, navigate]);
 
   const {
     loading: loadingCompanies,
@@ -146,6 +146,7 @@ const PostJob = () => {
           />
           <AddCompanyDrawer fetchCompanies={fnCompanies} />
         </div>
+        
         {errors.location && (
           <p className="text-red-500">{errors.location.message}</p>
         )}
