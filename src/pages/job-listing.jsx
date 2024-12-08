@@ -1,4 +1,4 @@
-
+//
 import { getCompanies } from "@/api/apiCompanies";
 import { getJobs } from "@/api/apiJobs";
 import JobCard from "@/components/job-card";

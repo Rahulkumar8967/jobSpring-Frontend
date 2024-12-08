@@ -14,6 +14,7 @@ export async function getCompanies(token) {
   return data;
 }
 
+
 // Add Company
 export async function addNewCompany(token, _, companyData) {
   const supabase = await supabaseClient(token);
